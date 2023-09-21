@@ -15,7 +15,8 @@ public class TesteJUnit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Metodos m=new Metodos();
+        System.out.println(m.getIniciais("Felipe Costa Fernandes"));
     }
     
 }

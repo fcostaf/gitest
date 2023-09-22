@@ -27,4 +27,15 @@ public class Metodos {
         }
         return cod;
     }
+    
+    public int[] progressaoAritmetica(int a,int b,int c){
+        int[] resultado=new int[c];
+        int n=0;
+        while(n<c){
+            resultado[n]=a;
+            a+=b;
+            n+=1;
+        }
+        return resultado;
+    }
 }

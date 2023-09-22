@@ -17,6 +17,9 @@ public class TesteJUnit {
     public static void main(String[] args) {
         Metodos m=new Metodos();
         System.out.println(m.getIniciais("Felipe Costa Fernandes"));
+        for(int r:m.progressaoAritmetica(2, 3, 5)){
+            System.out.println(r);
+        }
     }
     
 }

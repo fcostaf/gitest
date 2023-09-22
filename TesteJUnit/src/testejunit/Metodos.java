@@ -1,14 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package testejunit;
-
-/**
- *
- * @author 771000343
- */
 public class Metodos {
 
     public Metodos() {
@@ -34,6 +24,17 @@ public class Metodos {
         while(n<c){
             resultado[n]=a;
             a+=b;
+            n+=1;
+        }
+        return resultado;
+    }
+    
+    public int[] progressaoGeometrica(int a,int b,int c){
+        int[] resultado=new int[c];
+        int n=0;
+        while(n<c){
+            resultado[n]=a;
+            a*=b;
             n+=1;
         }
         return resultado;
